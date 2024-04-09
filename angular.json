@@ -35,7 +35,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/todomvc-app-css/index.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -106,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "09d3eec5-9b3c-41d6-a3d3-80c58b4ce7a4"
   }
 }
